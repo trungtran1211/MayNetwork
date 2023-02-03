@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./images/home/favicon.png" type="image/x-icon" />
+    <link href="https://cdn.staticaly.com/gh/hung1001/font-awesome-pro-v6/44659d9/css/all.min.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap" rel="stylesheet">
+    <link
+        rel="stylesheet"
+        type="text/css"
+        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+      />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/service.css">
+    <title>MÂY NETWORK</title>
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <div class="header-container">
+                <div class="header-left">
+                    <div class="logo">
+                        <img src="./images/home/logo.png" alt="">
+                    </div>
+                </div>
+                <div class="header-right">
+                    <div class="iconmenu mb">
+                        <img src="./images/home/menu/icon-menu1.png" alt="">
+                    </div>
+                    <nav id="wrap" class="main-menu">
+                        <a class="menu-close mb"><img src="./images/home/menu/icon-menu2.png" alt=""></a>
+                        <div class="logo mb">
+                            <img src="./images/home/logo.png" alt="">
+                        </div>
+                        <ul>
+                            <div class="header-search mb">
+                                <form action="">
+                                    <div class="search-box search-bg">
+                                        <button class="search-btn">
+                                            <img src="./images/home/search.png" alt="">
+                                        </button>
+                                        <input type="text" class="hide show" placeholder="Search..."/>
+                                      </div>
+                                </form>
+                            </div>
+                            <li> 
+                                <a href="#">Dịch vụ <i class="fa-regular fa-angle-down"></i></a> 
+                                <ul>
+                                    <li> <a href="#">Xây dựng kênh <i class="fa-regular fa-angle-right pc"></i><i class="fa-regular fa-angle-down mb"></i></a>
+                                        <ul>
+                                            <li> <a href="#">Xây dựng kênh cá nhân</a></li>
+                                            <li> <a href="#">Xây dựng kênh doanh nghiệp</a></li>
+                                            <li> <a href="#">Xây dựng kênh bán hàng</a></li>
+                                        </ul>
+                                    </li>
+                                    <li> <a href="#">Duy trì kênh</a> </li>
+                                    <li> <a href="#">Tư vấn tối ưu kênh</a> </li>
+                                    <li> <a href="#">Quản lý kênh</a> </li>
+                                    <li> <a href="#">Booking KOL/KOC</a> </li>
+                                    <li> <a href="#">Đào tạo <i class="fa-regular fa-angle-right pc"></i><i class="fa-regular fa-angle-down mb"></i></a> 
+                                        <ul>
+                                            <li> <a href="#">Đào tạo inhouse</a></li>
+                                            <li> <a href="#">Đào tạo idol</a></li>
+                                        </ul>
+                                    </li>
+                                    <li> <a href="#">Bảng giá dịch vụ</a> </li>
+                                </ul>
+                            </li>
+                            <li> <a href="#">Đối tác tiêu biểu</a> </li>
+                            <li> <a href="#">Về Mây <i class="fa-regular fa-angle-down"></i></a>
+                                <ul>
+                                    <li> <a href="">Về Mây</a></li>
+                                    <li> <a href="">Tuyển dụng</a></li>
+                                    <li> <a href="">Bạn hỏi - Mây đáp</a></li>
+                                </ul>
+                            </li>
+                            <li> <a href="#">Blog</a> </li>
+                            <li> <a href="#">Liên hệ</a> </li>
+                            <div class="header-search pc">
+                                <form action="">
+                                    <div class="search-box">
+                                        <button class="search-btn">
+                                            <img src="./images/home/search.png" alt="">
+                                        </button>
+                                        <input type="text" class="hide" placeholder="Search..."/>
+                                      </div>
+                                </form>
+                            </div>
+                        </ul>
+                        
+                    </nav>
+
+                </div>
+            </div>
+        </div>
+     </header>
+
+    <main>
+        <div class="sv__banner">
+            <div class="banner-bg">
+                <img src="./images/service/sv-banner.png" alt="">
+            </div>
+            <div class="container">
+                <h1 class="sv__banner-heading">MÂY <span>CÓ GÌ?</span></h1>
+                <!-- <div class="sv__heading">
+                    <img src="./images/service/baner-heading.png" alt="">
+                </div> -->
+            </div>
+            <div class="banner__may">
+                <img src="./images/service/may-03.png" alt="">
+            </div>
+        </div>
+        
+        <div class="sv__content">
+            <div class="sv__content-container">
+                <div class="container">
+                    <div class="sv__content-main">
+                        <h2 class="sv__content-heading">
+                            DỊCH VỤ <span>MCN TIKTOK</span>
+                        </h2>
+                        <div id="sv__content-nav">
+                            <ul>
+                                <li onclick="sv(this)"><h3><a href="#build">Xây dựng kênh</a></h3></li>
+                                <li onclick="sv(this)"><h3><a href="#maintain">Duy trì kênh</a></h3></li>
+                                <li onclick="sv(this)"><h3><a href="#advise">Tư vấn tối ưu kênh</a></h3></li>
+                                <li onclick="sv(this)"><h3><a href="#manage">Quản lý kênh</a></h3></li>
+                                <li onclick="sv(this)"><h3><a href="#booking">Booking Idol</a></h3></li>
+                                <li onclick="sv(this)"><h3><a href="#train">Đào tạo</a></h3></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- ==========Xây dựng kênh=============== -->
+                <div id="build" class="content">
+                    <div class="sv__build-box1">
+                        <div class="container">
+                            <div class="box1-container">
+                                <div class="box1__left">
+                                    <h4 class="box-heading">Ở ĐÂY CÓ GÓI XÂY KÊNH CHẤT LƯỢNG!</h4>
+                                    <ul>
+                                        <li><img src="./images/service/star-blue.png" alt="">Bạn muốn xây dựng Tiktok cá nhân?</li>
+                                        <li><img src="./images/service/star-blue.png" alt="">Bạn muốn xây dựng Tiktok doanh nghiệp?</li>
+                                        <li><img src="./images/service/star-blue.png" alt="">Bạn muốn xây dựng Tiktok bán hàng?</li>
+                                    </ul>
+                                    <h6 class="box1__left-title">Mây Network cung cấp tất cả</h6>
+                                    <p class="box-text">Chúng tôi không phải là người đầu tiên cung cấp dịch vụ “Xây Kênh” nhưng chắc chắn sẽ là đối tác tin cậy của bạn trong chặng đường tạo ra những sản phẩm đạt hiệu quả tối đa trên nền tảng Tiktok.</p>
+                                </div>
+                                <div class="box1__right">
+                                    <img src="./images/service/build/build-banner.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sv__build-box2">
+                        <div class="container">
+                            <div class="box2-container">
+                                <h2 class="box-title">CHI PHÍ</h2>
+                                <p class="box-price1 box-price"> <img src="./images/service/star-white.png" alt=""> 79 triệu <span>cam kết</span> 50k Followers</p>
+                                <p class="box-price2 box-price"> <img src="./images/service/star-white.png" alt=""> 129 triệu <span>cam kết</span> 100k Followers</p>
+                                <span class="box-note">Note: Đây là chi phí sản xuất, chưa bao gồm các chi phí như phí thuê diễn viên, bối cảnh, đạo cụ,…</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sv__build-box3">
+                        <div class="container">
+                            <div class="sv__box3-container">
+                                <div class="sv__box-list">
+                                    <div class="sv__box-item">
+                                        <div class="one">
+                                            <img src="./images/service/1.png" alt="">
+                                        </div>
+                                        <div class="sv__box-content">
+                                            <span class="title-box">CAM KẾT</span>
+                                            <ul class="box-list">
+                                                <li>Cam kết 4 vid/tuần cho đến khi đạt KPI</li>
+                                                <li>Cam kết 4 vid/tuần cho đến khi đạt KPI 1/2 số video đến thời điểm KPI đạt ít nhất 50k views</li>
+                                            </ul>
+                                         </div>
+                                    </div>
+                                    <div class="sv__box-item">
+                                        <div class="two">    
+                                            <img src="./images/service/2.png" alt="">
+                                        </div>
+                                        <div class="sv__box-content">
+                                            <span class="title-box">NỘI DUNG</span>
+                                            <ul class="box-list">
+                                                <li>Lên concept, viết kịch bản, quay dựng</li>
+                                                <li>Đảm bảo tất cả các vấn đề về kênh kể cả các vấn đề về chính sách Tiktok</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="sv__box-item">
+                                        <div class="two">
+                                            <img src="./images/service/3.png" alt="">
+                                        </div>
+                                        <div class="sv__box-content">
+                                            <span class="title-box">THỜI GIAN ĐẠT KPI</span>
+                                            <ul class="box-list">
+                                                <li>Thời hạn gói: 3 tháng</li>
+                                                <li>Trong trường hợp đạt KPI trước thời hạn thì team sẽ bàn giao lại kênh và thông số kỹ thuật ngay lập tức cho đối tác</li>
+                                                <li>Thời gian quay: 2 tuần/lần + Quay trong vòng 1 ngày được 10 kịch bản.</li>
+                                            </ul>
+                                         </div>
+                                    </div>
+                                </div>
+                                <a href="#">
+                                    <button class="sv__btn">Xây kênh ngay <img src="./images/service/icon-btn.png" alt=""></button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ==========Duy trì kênh================ -->
+                <div id="maintain" class="content">
+                    <div class="sv__maintain1">
+                        <div class="container">
+                            <div class="maintain__top">
+                                <div class="maintain__top-left">
+                                    <img src="./images/service/maintain/maintain-banner.png" alt="">
+                                </div>
+                                <div class="maintain__top-right">
+                                    <div class="right-box1">
+                                        <h4 class="box-heading">GÓI DUY TRÌ KÊNH TẠI MÂY</h4>
+                                        <p class="box-text">Bạn là Cá nhân / Tổ chức / Doanh nghiệp có mục tiêu phát triển dài hạn và duy trì nội dung lâu dài trên nền tảng tuy nhiên lại không đủ nguồn lực hỗ trợ?</p>
+                                        <h6 class="maintain-title">Để đó Mây lo!</h6>
+                                        <p class="box-text">Dù kênh của bạn mới xây hay đã xây và dừng vận hành trong một thời gian dài, Mây cũng sẽ tiếp nhận và sản xuất video để duy trì hoạt động</p>
+                                    </div>
+                                    <div class="right-box2">
+                                        <h2 class="box-title">CHI PHÍ</h2>
+                                        <p class="box-price2 box-price"><img src="./images/service/star-white.png" alt="">50 triệu/<span> Tháng</span></p>
+                                        <span class="box-note">Note: Đây là chi phí sản xuất, chưa bao gồm các chi phí như phí thuê diễn viên, bối cảnh, đạo cụ,…</span>
+                                    </div>
+                                </div>
+                            </div>
+                       </div>
+                    </div>
+                    <div class="sv__maintain2">
+                        <div class="container">
+                            <div class="maintain-list">
+                                <div class="sv__box-list">
+                                    <div class="sv__box-item">
+                                        <div class="one">
+                                            <img src="./images/service/1.png" alt="">
+                                        </div>
+                                        <div class="sv__box-content">
+                                            <span class="title-box">CAM KẾT</span>
+                                            <ul class="box-list">
+                                                <li>Cam kết sản xuất 4 video/tuần cho đến khi đạt KPI</li>
+                                                <li>1/2 số video đến thời điểm đạt KPI đạt ít nhất 50.000 lượt xem</li>
+                                            </ul>
+                                         </div>
+                                    </div>
+                                    <div class="sv__box-item">
+                                        <div class="two">    
+                                            <img src="./images/service/2.png" alt="">
+                                        </div>
+                                        <div class="sv__box-content">
+                                            <span class="title-box">NỘI DUNG</span>
+                                            <ul class="box-list">
+                                                <li>Lên concept, viết kịch bản, quay dựng . Đảm bảo tất cả các vấn đề về kênh kể cả các vấn đề về chính sách TikTok.</li>
+                                                     </ul>
+                                        </div>
+                                    </div>
+                                    <div class="sv__box-item">
+                                        <div class="two">
+                                            <img src="./images/service/3.png" alt="">
+                                        </div>
+                                        <div class="sv__box-content">
+                                            <span class="title-box">THỜI GIAN ĐẠT KPI</span>
+                                            <ul class="box-list">
+                                                <li>Thời gian: 2 tuần/lần</li>
+                                                <li>Quay trong vòng 1 ngày được 10 kịch bản</li>
+                                            </ul>
+                                         </div>
+                                    </div>
+                                </div>
+                                <a href="#">
+                                    <button class="sv__btn">Đăng ký ngay <img src="./images/service/icon-btn.png" alt=""></button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ==========Tư vấn tối ưu kênh=========== -->
+                <div id="advise" class="content">
+                    <div class="sv__advise1">
+                        <div class="container">
+                            <div class="advise-container">
+                                <div class="advise__left">
+                                    <img src="./images/service/advise/advise-banner.png" alt="">
+                                </div>
+                                <div class="advise__right">
+                                    <div class="advise__right-box1">
+                                        <h4 class="box-heading">TƯ VẤN TỐI ƯU KÊNH</h4>
+                                        <p class="box-text">Với sứ mệnh hướng đến những giá trị tích cực và bền vững, Mây sở hữu nguồn nhân sự có nhiều năm kinh nghiệm trong việc phân tích và kiểm duyệt về vấn đề vi phạm (như kênh vi phạm ẩn làm giảm tương tác, vi phạm chính sách, video/content chưa được tối ưu...). Tại Mây Network, chúng tôi chuyên khám kênh và đưa ra giải pháp phù hợp với từng ngách và mục tiêu mà cá nhân, doanh nghiệp đang hướng đến. </p>
+                                    </div>
+                                    <div class="advise__right-box2">
+                                        <h2 class="box-title">CHI PHÍ</h2>
+                                        <p class="box-price2 box-price"><img src="./images/service/star-white.png" alt=""> 500.000đ/<span> lần</span></p>
+                                        <span class="box-note">Note: Thường là dịch vụ tặng kèm khi khách hàng sử dụng các gói dịch vụ khác</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sv__advise2">
+                        <div class="container">
+                            <div class="advise-list">
+                                <div class="sv__box-list">
+                                    <div class="sv__box-item">
+                                        <div class="one">
+                                            <img src="./images/service/1.png" alt="">
+                                        </div>
+                                        <div class="sv__box-content">
+                                            <span class="title-box">CAM KẾT</span>
+                                            <ul class="box-list">
+                                                <li>Đội ngũ khám kênh: Lead team biên kịch, lead team kiểm duyệt, lead team booking & affiliate</li>
+                                                <li> Khách sẽ được đặt câu hỏi, có thời gian suy nghĩ câu hỏi 1-2 ngày</li>
+                                            </ul>
+                                         </div>
+                                    </div>
+                                    <div class="sv__box-item">
+                                        <div class="two">    
+                                            <img src="./images/service/2.png" alt="">
+                                        </div>
+                                        <div class="sv__box-content">
+                                            <span class="title-box">NỘI DUNG</span>
+                                            <ul class="box-list">
+                                                <li>Về Content, quay dựng, vi phạm chính sách và kiếm tiền (booking và affiliate)</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="sv__box-item">
+                                        <div class="two">
+                                            <img src="./images/service/3.png" alt="">
+                                        </div>
+                                        <div class="sv__box-content">
+                                            <span class="title-box">THỜI GIAN ĐẠT KPI</span>
+                                            <ul class="box-list">
+                                                <li>2 lần/tuần, giới hạn 20 người trong 1 buổi khám kênh</li>
+                                            </ul>
+                                         </div>
+                                    </div>
+                                </div>
+                                <a href="#">
+                                    <button class="sv__btn">Nhận tư vấn<img src="./images/service/icon-btn.png" alt=""></button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ==========Quản lý kênh================= -->
+                <div id="manage" class="content">
+                    <div class="sv__manage1">
+                        <div class="container">
+                            <div class="manage-container">
+                                <div class="manage__left">
+                                    <div class="manage__left-box1">
+                                        <h4 class="box-heading">QUẢN LÝ KÊNH</h4>
+                                        <p class="box-text">Nhằm giúp Cá nhân / Doanh nghiệp / Tổ chức tối ưu giá trị, tăng chuyển đổi, tăng khả năng viral thông qua những định hướng chính xác, nội dung phù hợp với thị hiếu khán giả mục tiêu, Mây Network mang đến gói “Quản lý kênh” với các dịch vụ:</p>
+                                        <ul>
+                                            <li>Định hướng nội dung, chủ đề kênh để tiếp cận đúng tệp khách hàng.</li>
+                                            <li>Kiểm duyệt video trước khi đăng.</li>
+                                            <li>Đảm bảo sản xuất nội dung với tần suất thường xuyên, cam kết đạt KPIs đề ra.</li>
+                                        </ul>
+                                    </div>
+                                    <div class="manage__left-box2">
+                                        <h2 class="box-title">CHI PHÍ</h2>
+                                        <p class="box-price2 box-price"><img src="./images/service/star-white.png" alt=""> 900.000 VND/<span> Tháng</span></p>    
+                                    </div>
+                                </div>
+                                <div class="manage__right">
+                                    <img src="./images/service/manage/manage-banner.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sv__manage2">
+                        <div class="container">
+                            <div class="sv__manage2-container">
+                                <div class="manage-list">
+                                    <div class="manage-item">
+                                        <div class="one">
+                                            <img src="./images/service/1.png" alt="">
+                                        </div>
+                                        <div class="sv__box-content">
+                                            <span class="title-box">ĐIỀU KIỆN NHẬN KÊNH</span>
+                                            <ul class="box-list">
+                                                <li>Kênh đạt tối thiểu 10k Follower</li>
+                                                <li>Hashtag #may trong mỗi video</li>
+                                                <li>Số lượng upload tối thiểu 4 video/tuần</li>
+                                                <li>Giá trị thời hạn hợp đồng tối thiểu 3 tháng</li>
+                                            </ul>
+                                         </div>
+                                    </div>
+                                    <div class="manage-item">
+                                        <div class="two">
+                                            <img src="./images/service/2.png" alt="">
+                                        </div>
+                                        <div class="sv__box-content">
+                                            <span class="title-box">CAM KẾT</span>
+                                            <div class="manage-listitem">
+                                                <ul class="box-list">
+                                                    <li>Được phân phối hiển thị tốt hơn.</li>
+                                                    <li>Hỗ trợ mở livestream trên PC và được tham gia Webinar về xu hướng thị trường do TikTok tổ chức.</li>
+                                                </ul>
+                                                <ul class="box-list">
+                                                    <li>Duyệt video trước khi up để đảm bảo về nội dung và chính sách kiểm duyệt</li>
+                                                    <li>Bật chế độ kiếm tiền khi kênh đáp ứng tiêu chuẩn của TikTok </li>
+                                                    <li>Định hướng content nhằm tăng khả năng Viral và tạo ra chuyển đổi.</li>
+                                                </ul>
+                                            </div>
+                                         </div>
+                                    </div>
+                                </div>
+                                <a href="#">
+                                    <button class="sv__btn">Đăng ký ngay<img src="./images/service/icon-btn.png" alt=""></button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ==========Booking idol================= -->
+                <div id="booking" class="content">
+                    <div class="sv__booking1">
+                        <div class="container">
+                            <div class="booking1-container">
+                                <div class="booking__left">
+                                    <div class="booking__left-box1">
+                                        <h4 class="box-heading">BOOKING KOL/KOC</h4>
+                                        <p class="box-text sv_text-mb">Nâng cao chuyển đổi nhờ hệ sinh thái Idol / KOL / KOC sở hữu từ vài trăm đến vài triệu followers của Mây!</p>
+                                        <a href="#">
+                                            <button class="sv__btn">Tìm hiểu ngay idol nhà Mây!<img src="./images/service/icon-btn.png" alt=""></button>
+                                        </a>
+                                    </div>  
+                                    <div class="booking__left-box2">
+                                        <h2 class="box-title">CHI PHÍ</h2>
+                                        <p class="box-price2 box-price"><img src="./images/service/star-white.png" alt="">Chỉ từ 1.000.000 VNĐ</p>
+                                    </div>
+                                </div>
+                                <div class="booking__right">
+                                    <img src="./images/service/booking/booking-banner.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sv__booking2">
+                        <div class="container">
+                            <div class="booking2-container">
+                                <div class="sv__booking-list">
+                                    <div class="booking-item">
+                                        <div class="one">
+                                            <img src="./images/service/1.png" alt="">
+                                        </div>
+                                        <div class="sv__box-content">
+                                            <span class="title-box booking-title">BẠN SẼ NHẬN ĐƯỢC</span>
+                                            <ul class="box-list booking-list">
+                                                <li>Nâng cao chuyển đổi </li>
+                                                <li>Kết nối, làm việc với các KOL/KOC nổi tiếng</li>
+                                                <li>Quy trình làm việc chuyên nghiệp</li>
+                                                <li>Support tận tình</li>
+                                                <li>Tối ưu nội dung quảng cáo</li>
+                                            </ul>
+                                         </div>
+                                    </div>
+                                    <div class="booking-item">
+                                        <div class="two">
+                                            <img src="./images/service/2.png" alt="">
+                                        </div>
+                                        <div class="sv__box-content">
+                                            <span class="title-box booking-title">CAM KẾT</span>
+                                            <ul class="box-list booking-list">
+                                                <li>Cam kết về số lượng, nội dung video sản xuất và thời điểm đăng theo yêu cầu của nhãn hàng</li>
+                                                <li>Cam kết về lượt reach / view / thả tim của video</li>
+                                                <li>Nhà sáng tạo gắn Link TikTokShop không gỡ và không ẩn video</li>
+                                            </ul>
+                                         </div>
+                                    </div>
+                                </div>
+                                <a href="#">
+                                    <button class="sv__btn">Đăng ký ngay<img src="./images/service/icon-btn.png" alt=""></button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ==========Đào tạo====================== -->
+                <div id="train" class="content">
+                    <div class="sv__train1">
+                        <div class="container">
+                            <div class="sv__train1-container">
+                                <div class="train1-left">
+                                    <h4 class="box-heading">ĐÀO TẠO</h4>
+                                    <p class="box-text sv_text-mb">Với kinh nghiệm nhiều năm trong ngành đã được chứng minh qua những thành tựu nhất định, Mây Network cam kết về kiến thức, kinh nghiệm và khả năng tổ chức đào tạo các tài năng trẻ với dịch vụ từ cơ bản đến chuyên sâu, cụ thể: </p>
+                                    <ul class="train-listtext">
+                                        <li>Đào tạo in-house (đào tạo về xây kênh cho doanh nghiệp/nhãn hàng, set-up và triển khai TikTok shop, Livestream, Content Marketing).</li>
+                                        <li>Đào tạo Idol TikTok chuyên nghiệp.</li>
+                                    </ul>
+                                </div>
+                                <div class="train2-right">
+                                    <img src="./images/service/train/train-banner.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                       
+                    </div>
+                    <div class="sv__train2">
+                        <div class="container">
+                             <div class="train2-container">
+                                <div class="train2-boxs">
+                                    <div class="train2-box">
+                                        <h2 class="train-title">TIKTOK SHOP</h2>
+                                        <ul>
+                                            <li>Văn bản mẫu chi phí</li>
+                                            <li>Văn bản mẫu chi phí</li>
+                                            <li>Văn bản mẫu chi phí</li>
+                                        </ul>   
+                                        <p class="train-text">Note: Yêu câu mở lớp tối thiểu xx học viên</p>
+                                        <h2 class="train-title">THỜI GIAN ĐÀO TẠO</h2> 
+                                        <p class="train-text">Thời gian đào tạo tối thiểu 3 tháng</p>         
+                                    </div>
+                                    <div class="train2-box">
+                                        <h2 class="train-title">TIKTOK SHOP</h2>
+                                        <ul>
+                                            <li>Văn bản mẫu chi phí</li>
+                                            <li>Văn bản mẫu chi phí</li>
+                                            <li>Văn bản mẫu chi phí</li>
+                                        </ul>   
+                                        <p class="train-text">Note: Yêu câu mở lớp tối thiểu xx học viên</p>
+                                        <h2 class="train-title">THỜI GIAN ĐÀO TẠO</h2> 
+                                        <p class="train-text">Thời gian đào tạo tối thiểu 3 tháng</p> 
+                                    </div>
+                                </div>
+                                <a href="#">
+                                    <button class="train-btn">Đăng ký ngay <img src="./images/service/train/train-arrowbtn.png" alt=""></button>
+                                </a>
+                             </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <!-- footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-container">
+                <div class="ft-top">
+                    <div class="logo-footer">
+                        <img src="./images/home/logo-ft.png" alt="">
+                    </div>
+                    <p class="ft-text">67 Hoàng Văn Thái, Phường Tân Phú, Quận 7, Thành phố Hồ Chí Minh</p>
+                    <div class="list-social">
+                        <a href="#"><img src="./images/home/ic-fb.png" alt=""></a>
+                        <a href="#"><img src="./images/home/ic-ig.png" alt=""></a>
+                        <a href="#"><img src="./images/home/ic-lk.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="ft-bottom">
+            <div class="copyright">
+                <span>© 2022 Mây Network | All rights reserved</span>
+            </div>
+        </div>
+    </footer>
+
+     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+     <script>
+       AOS.init();
+     </script>
+     <script
+       type="text/javascript"
+       src="https://code.jquery.com/jquery-1.11.0.min.js"
+     ></script>
+     <script
+       type="text/javascript"
+       src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"
+     ></script>
+     <script
+       type="text/javascript"
+       src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+     ></script>
+     <script src="./js/home.js"></script>
+     <script src="./js/service.js"></script>
+</body>
+</html>

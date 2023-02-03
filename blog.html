@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./images/home/favicon.png" type="image/x-icon" />
+    <link href="https://cdn.staticaly.com/gh/hung1001/font-awesome-pro-v6/44659d9/css/all.min.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap" rel="stylesheet">
+    <link
+        rel="stylesheet"
+        type="text/css"
+        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+      />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/blog.css">
+    <title>MÂY NETWORK</title>
+</head>
+<body>
+    <!-- Header -->
+    <header class="site-header">
+        <div class="container">
+            <div class="header-container">
+                <div class="header-left">
+                    <div class="logo">
+                        <img src="./images/home/logo.png" alt="">
+                    </div>
+                </div>
+                <div class="header-right">
+                    <div class="iconmenu mb">
+                        <img src="./images/home/menu/icon-menu1.png" alt="">
+                    </div>
+                    <nav id="wrap" class="main-menu">
+                        <a class="menu-close mb"><img src="./images/home/menu/icon-menu2.png" alt=""></a>
+                        <div class="logo mb">
+                            <img src="./images/home/logo.png" alt="">
+                        </div>
+                        <ul>
+                            <div class="header-search mb">
+                                <form action="">
+                                    <div class="search-box search-bg">
+                                        <button class="search-btn">
+                                            <img src="./images/home/search.png" alt="">
+                                        </button>
+                                        <input type="text" class="hide show" placeholder="Search..."/>
+                                      </div>
+                                </form>
+                            </div>
+                            <li> 
+                                <a href="#">Dịch vụ <i class="fa-regular fa-angle-down"></i></a> 
+                                <ul>
+                                    <li> <a href="#">Xây dựng kênh <i class="fa-regular fa-angle-right pc"></i><i class="fa-regular fa-angle-down mb"></i></a>
+                                        <ul>
+                                            <li> <a href="#">Xây dựng kênh cá nhân</a></li>
+                                            <li> <a href="#">Xây dựng kênh doanh nghiệp</a></li>
+                                            <li> <a href="#">Xây dựng kênh bán hàng</a></li>
+                                        </ul>
+                                    </li>
+                                    <li> <a href="#">Duy trì kênh</a> </li>
+                                    <li> <a href="#">Tư vấn tối ưu kênh</a> </li>
+                                    <li> <a href="#">Quản lý kênh</a> </li>
+                                    <li> <a href="#">Booking KOL/KOC</a> </li>
+                                    <li> <a href="#">Đào tạo <i class="fa-regular fa-angle-right pc"></i><i class="fa-regular fa-angle-down mb"></i></a> 
+                                        <ul>
+                                            <li> <a href="#">Đào tạo inhouse</a></li>
+                                            <li> <a href="#">Đào tạo idol</a></li>
+                                        </ul>
+                                    </li>
+                                    <li> <a href="#">Bảng giá dịch vụ</a> </li>
+                                </ul>
+                            </li>
+                            <li> <a href="#">Đối tác tiêu biểu</a> </li>
+                            <li> <a href="#">Về Mây <i class="fa-regular fa-angle-down"></i></a>
+                                <ul>
+                                    <li> <a href="">Về Mây</a></li>
+                                    <li> <a href="">Tuyển dụng</a></li>
+                                    <li> <a href="">Bạn hỏi - Mây đáp</a></li>
+                                </ul>
+                            </li>
+                            <li> <a href="#">Blog</a> </li>
+                            <li> <a href="#">Liên hệ</a> </li>
+                            <div class="header-search pc">
+                                <form action="">
+                                    <div class="search-box">
+                                        <button class="search-btn">
+                                            <img src="./images/home/search.png" alt="">
+                                        </button>
+                                        <input type="text" class="hide" placeholder="Search..."/>
+                                      </div>
+                                </form>
+                            </div>
+                        </ul>
+                        
+                    </nav>
+
+                </div>
+            </div>
+        </div>
+     </header>
+
+    <main>
+        <div class="blog__banner">
+            <div class="blog__banner-bg">
+                <img src="./images/blogs/blog-bgtop.png" alt="">
+            </div>
+            <h1 class="blog__banner-heading">
+                GÓC <span>MÂY</span> CHIA SẺ
+            </h1>
+        </div>
+        <!-- ///////////////////////////////// -->
+        <div class="blog__listpost">
+            <div class="container">
+                <h2 class="blog__all">Tất cả</h2>
+                <div class="blog__listpost-container">
+                    <div class="blog__listpost-left">
+                        <div id="blog__listpost-nav">
+                            <ul>
+                                <li onclick="sv(this)"> <a href="#share">Góc chia sẻ</a> </li>
+                                <li onclick="sv(this)"> <a href="#trend">Xu hướng</a> </li>
+                                <li onclick="sv(this)"> <a href="#work">Hoạt động nổi bật</a> </li>
+                                <li onclick="sv(this)"> <a href="#casestudies">Case studies</a> </li>
+                            </ul>
+                        </div>
+
+                        <!-- ==========Share========== -->
+                        <div id="share" class="content">
+                            <div class="blog__all-list">
+                                <div class="blog__all-item">
+                                    <a href="#">
+                                        <div class="blog__item-img">
+                                            <img src="./images/blogs/blog-img1.png" alt="">
+                                        </div>
+                                        <div class="blog__item-content">
+                                            <h3 class="blog__item-title">NHÌN LẠI BUỔI WORKSHOP “LAY CẢM XÚC” NHẤT TUẦN QUA</h3>
+                                            <span>23/12/2022</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="blog__all-item">
+                                    <a href="#">
+                                        <div class="blog__item-img">
+                                            <img src="./images/blogs/blog-img2.png" alt="">
+                                        </div>
+                                        <div class="blog__item-content">
+                                            <h3 class="blog__item-title">Người trẻ Trung Quốc thích gõ mõ trực tuyến</h3>
+                                            <span>23/12/2022</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="blog__all-item">
+                                    <a href="#">
+                                        <div class="blog__item-img">
+                                            <img src="./images/blogs/blog-img3.png" alt="">
+                                        </div>
+                                        <div class="blog__item-content">
+                                            <h3 class="blog__item-title">Những xu hướng du lịch thế giới năm 2022</h3>
+                                            <span>23/12/2022</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="blog__all-item">
+                                    <a href="#">
+                                        <div class="blog__item-img">
+                                            <img src="./images/blogs/blog-img4.png" alt="">
+                                        </div>
+                                        <div class="blog__item-content">
+                                            <h3 class="blog__item-title">TikTok công bố bảng tổng kết Year On TikTok 2022</h3>
+                                            <span>23/12/2022</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- ==========trend========== -->
+                        <div id="trend" class="content">
+                            <div class="blog__all-list">
+                                <div class="blog__all-item">
+                                    <div class="blog__item-img">
+                                        <img src="./images/blogs/blog-img1.png" alt="">
+                                    </div>
+                                    <div class="blog__item-content">
+                                        <h3 class="blog__item-title">NHÌN LẠI BUỔI WORKSHOP “LAY CẢM XÚC” NHẤT TUẦN QUA</h3>
+                                        <span>23/12/2022</span>
+                                    </div>
+                                    
+                                </div>
+                                <div class="blog__all-item">
+                                    <div class="blog__item-img">
+                                        <img src="./images/blogs/blog-img2.png" alt="">
+                                    </div>
+                                    <div class="blog__item-content">
+                                        <h3 class="blog__item-title">Người trẻ Trung Quốc thích gõ mõ trực tuyến</h3>
+                                        <span>23/12/2022</span>
+                                    </div>
+                                    
+                                </div>
+                                <div class="blog__all-item">
+                                    <div class="blog__item-img">
+                                        <img src="./images/blogs/blog-img3.png" alt="">
+                                    </div>
+                                    <div class="blog__item-content">
+                                        <h3 class="blog__item-title">Những xu hướng du lịch thế giới năm 2022</h3>
+                                        <span>23/12/2022</span>
+                                    </div>
+                                    
+                                </div>
+                                <div class="blog__all-item">
+                                    <div class="blog__item-img">
+                                        <img src="./images/blogs/blog-img4.png" alt="">
+                                    </div>
+                                    <div class="blog__item-content">
+                                        <h3 class="blog__item-title">TikTok công bố bảng tổng kết Year On TikTok 2022</h3>
+                                        <span>23/12/2022</span>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- ==========work========== -->
+                        <div id="work" class="content">
+                            <div class="blog__all-list">
+                                <div class="blog__all-item">
+                                    <div class="blog__item-img">
+                                        <img src="./images/blogs/blog-img1.png" alt="">
+                                    </div>
+                                    <div class="blog__item-content">
+                                        <h3 class="blog__item-title">NHÌN LẠI BUỔI WORKSHOP “LAY CẢM XÚC” NHẤT TUẦN QUA</h3>
+                                        <span>23/12/2022</span>
+                                    </div>
+                                    
+                                </div>
+                                <div class="blog__all-item">
+                                    <div class="blog__item-img">
+                                        <img src="./images/blogs/blog-img2.png" alt="">
+                                    </div>
+                                    <div class="blog__item-content">
+                                        <h3 class="blog__item-title">Người trẻ Trung Quốc thích gõ mõ trực tuyến</h3>
+                                        <span>23/12/2022</span>
+                                    </div>
+                                    
+                                </div>
+                                <div class="blog__all-item">
+                                    <div class="blog__item-img">
+                                        <img src="./images/blogs/blog-img3.png" alt="">
+                                    </div>
+                                    <div class="blog__item-content">
+                                        <h3 class="blog__item-title">Những xu hướng du lịch thế giới năm 2022</h3>
+                                        <span>23/12/2022</span>
+                                    </div>
+                                    
+                                </div>
+                                <div class="blog__all-item">
+                                    <div class="blog__item-img">
+                                        <img src="./images/blogs/blog-img4.png" alt="">
+                                    </div>
+                                    <div class="blog__item-content">
+                                        <h3 class="blog__item-title">TikTok công bố bảng tổng kết Year On TikTok 2022</h3>
+                                        <span>23/12/2022</span>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- ==========casestudies========== -->
+                        <div id="casestudies" class="content">
+                            <div class="blog__all-list">
+                                <div class="blog__all-item">
+                                    <div class="blog__item-img">
+                                        <img src="./images/blogs/blog-img1.png" alt="">
+                                    </div>
+                                    <div class="blog__item-content">
+                                        <h3 class="blog__item-title">NHÌN LẠI BUỔI WORKSHOP “LAY CẢM XÚC” NHẤT TUẦN QUA</h3>
+                                        <span>23/12/2022</span>
+                                    </div>
+                                    
+                                </div>
+                                <div class="blog__all-item">
+                                    <div class="blog__item-img">
+                                        <img src="./images/blogs/blog-img2.png" alt="">
+                                    </div>
+                                    <div class="blog__item-content">
+                                        <h3 class="blog__item-title">Người trẻ Trung Quốc thích gõ mõ trực tuyến</h3>
+                                        <span>23/12/2022</span>
+                                    </div>
+                                    
+                                </div>
+                                <div class="blog__all-item">
+                                    <div class="blog__item-img">
+                                        <img src="./images/blogs/blog-img3.png" alt="">
+                                    </div>
+                                    <div class="blog__item-content">
+                                        <h3 class="blog__item-title">Những xu hướng du lịch thế giới năm 2022</h3>
+                                        <span>23/12/2022</span>
+                                    </div>
+                                    
+                                </div>
+                                <div class="blog__all-item">
+                                    <div class="blog__item-img">
+                                        <img src="./images/blogs/blog-img4.png" alt="">
+                                    </div>
+                                    <div class="blog__item-content">
+                                        <h3 class="blog__item-title">TikTok công bố bảng tổng kết Year On TikTok 2022</h3>
+                                        <span>23/12/2022</span>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="blog__listpost-right">
+                        <div class="recentposts-title">
+                            <h3>Bài viết gần đây</h3>
+                        </div>
+                        <div class="blog__recentposts-list">
+                            <div class="blog__recentposts-item">
+                                <div class="recentposts-left">
+                                    <img src="./images/blogs/recentposts-img1.png" alt="">
+                                </div>
+                                <div class="recentposts-right">
+                                    <span class="recentpost-time"><img src="./images/blogs/icon-clock.png" alt="">23/12/2022</span>
+                                    <p class="recentpost-tt">Viettel tung gói cước Internet sử dụng Wi-Fi 6 với tốc độ tới 1Gbps</p>
+                                    <a href="#">
+                                        <button class="recentpost-btn">Xem thêm <img src="./images/blogs/icon-arrow.png" alt=""></button>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="blog__recentposts-item">
+                                <div class="recentposts-left">
+                                    <img src="./images/blogs/recentposts-img2.png" alt="">
+                                </div>
+                                <div class="recentposts-right">
+                                    <span class="recentpost-time"><img src="./images/blogs/icon-clock.png" alt="">18/12/2022</span>
+                                    <p class="recentpost-tt">Loạt ảnh "thả thính" của TikToker Quỳnh Alee nhận "bão like"</p>
+                                    <a href="#">
+                                        <button class="recentpost-btn">Xem thêm <img src="./images/blogs/icon-arrow.png" alt=""></button>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="blog__recentposts-item">
+                                <div class="recentposts-left">
+                                    <img src="./images/blogs/recentposts-img3.png" alt="">
+                                </div>
+                                <div class="recentposts-right">
+                                    <span class="recentpost-time"><img src="./images/blogs/icon-clock.png" alt="">07/12/2022</span>
+                                    <p class="recentpost-tt">Trợ năng mới trên iPhone phản tác dụng so với mục đích ra đời</p>
+                                    <a href="#">
+                                        <button class="recentpost-btn">Xem thêm <img src="./images/blogs/icon-arrow.png" alt=""></button>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="blog__recentposts-item">
+                                <div class="recentposts-left">
+                                    <img src="./images/blogs/recentposts-img4.png" alt="">
+                                </div>
+                                <div class="recentposts-right">
+                                    <span class="recentpost-time"><img src="./images/blogs/icon-clock.png" alt="">18/12/2022</span>
+                                    <p class="recentpost-tt">Mỹ cấm cài đặt TikTok trên các thiết bị?</p>
+                                    <a href="#">
+                                        <button class="recentpost-btn">Xem thêm <img src="./images/blogs/icon-arrow.png" alt=""></button>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="blog__recentposts-item">
+                                <div class="recentposts-left">
+                                    <img src="./images/blogs/recentposts-img5.png" alt="">
+                                </div>
+                                <div class="recentposts-right">
+                                    <span class="recentpost-time"><img src="./images/blogs/icon-clock.png" alt="">07/12/2022</span>
+                                    <p class="recentpost-tt">Quốc hội Mỹ chuẩn bị ‘xuất chiêu’ với TikTok</p>
+                                    <a href="#">
+                                        <button class="recentpost-btn">Xem thêm <img src="./images/blogs/icon-arrow.png" alt=""></button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- //////////////////////////////// -->
+        <div class="blog__listnews">
+            <div class="container">
+                <div class="blog__listnews-container">
+                    <h2 class="blog__listnews-heading">Tin hàng đầu trong tuần</h2>
+                    <div class="blog__listnews-list" >
+                        <div class="blog__listnews-item">
+                            <div class="listnews-img">
+                                <img src="./images/blogs/list-newimg1.png" alt="">
+                            </div>
+                            <h5 class="listnew-title">FIFA tạo cuộc tranh cãi dữ dội giữa phe Messi và Cristiano Ronaldo trên mạng xã hội</h5>
+                            <p class="listnew-text">Tài khoản chính thức trên mạng xã hội Twitter của LĐBĐ thế giới (FIFA) phải xóa liên tiếp 2 dòng tweet có liên quan tới siêu sao Lionel Messi và Cristiano Ronaldo, vì tạo ra cuộc tranh luận và chỉ trích lẫn nhau rất dữ dội.</p>
+                            <div class="listnew-bottom">
+                                <span><img src="./images/blogs/icon-clock.png" alt="">18/12/2022</span>
+                                <a href="#">
+                                    <button class="listnew-btn">Xem thêm <img src="./images/blogs/icon-arrow.png" alt=""></button>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="blog__listnews-item">
+                            <div class="listnews-img">
+                                <img src="./images/blogs/list-newimg2.png" alt="">
+                            </div>
+                            <h5 class="listnew-title">FIFA tạo cuộc tranh cãi dữ dội giữa phe Messi và Cristiano Ronaldo trên mạng xã hội</h5>
+                            <p class="listnew-text">Tài khoản chính thức trên mạng xã hội Twitter của LĐBĐ thế giới (FIFA) phải xóa liên tiếp 2 dòng tweet có liên quan tới siêu sao Lionel Messi và Cristiano Ronaldo, vì tạo ra cuộc tranh luận và chỉ trích lẫn nhau rất dữ dội.</p>
+                            <div class="listnew-bottom">
+                                <span><img src="./images/blogs/icon-clock.png" alt="">18/12/2022</span>
+                                <a href="#">
+                                    <button class="listnew-btn">Xem thêm <img src="./images/blogs/icon-arrow.png" alt=""></button>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="blog__listnews-item">
+                            <div class="listnews-img">
+                                <img src="./images/blogs/list-newimg3.png" alt="">
+                            </div>
+                            <h5 class="listnew-title">FIFA tạo cuộc tranh cãi dữ dội giữa phe Messi và Cristiano Ronaldo trên mạng xã hội</h5>
+                            <p class="listnew-text">Tài khoản chính thức trên mạng xã hội Twitter của LĐBĐ thế giới (FIFA) phải xóa liên tiếp 2 dòng tweet có liên quan tới siêu sao Lionel Messi và Cristiano Ronaldo, vì tạo ra cuộc tranh luận và chỉ trích lẫn nhau rất dữ dội.</p>
+                            <div class="listnew-bottom">
+                                <span><img src="./images/blogs/icon-clock.png" alt="">18/12/2022</span>
+                                <a href="#">
+                                    <button class="listnew-btn">Xem thêm <img src="./images/blogs/icon-arrow.png" alt=""></button>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="blog__listnews-item">
+                            <div class="listnews-img">
+                                <img src="./images/blogs/list-newimg3.png" alt="">
+                            </div>
+                            <h5 class="listnew-title">FIFA tạo cuộc tranh cãi dữ dội giữa phe Messi và Cristiano Ronaldo trên mạng xã hội</h5>
+                            <p class="listnew-text">Tài khoản chính thức trên mạng xã hội Twitter của LĐBĐ thế giới (FIFA) phải xóa liên tiếp 2 dòng tweet có liên quan tới siêu sao Lionel Messi và Cristiano Ronaldo, vì tạo ra cuộc tranh luận và chỉ trích lẫn nhau rất dữ dội.</p>
+                            <div class="listnew-bottom">
+                                <span><img src="./images/blogs/icon-clock.png" alt="">18/12/2022</span>
+                                <a href="#">
+                                    <button class="listnew-btn">Xem thêm <img src="./images/blogs/icon-arrow.png" alt=""></button>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="blog__listnews-item">
+                            <div class="listnews-img">
+                                <img src="./images/blogs/list-newimg3.png" alt="">
+                            </div>
+                            <h5 class="listnew-title">FIFA tạo cuộc tranh cãi dữ dội giữa phe Messi và Cristiano Ronaldo trên mạng xã hội</h5>
+                            <p class="listnew-text">Tài khoản chính thức trên mạng xã hội Twitter của LĐBĐ thế giới (FIFA) phải xóa liên tiếp 2 dòng tweet có liên quan tới siêu sao Lionel Messi và Cristiano Ronaldo, vì tạo ra cuộc tranh luận và chỉ trích lẫn nhau rất dữ dội.</p>
+                            <div class="listnew-bottom">
+                                <span><img src="./images/blogs/icon-clock.png" alt="">18/12/2022</span>
+                                <a href="#">
+                                    <button class="listnew-btn">Xem thêm <img src="./images/blogs/icon-arrow.png" alt=""></button>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="blog__listnews-item">
+                            <div class="listnews-img">
+                                <img src="./images/blogs/list-newimg3.png" alt="">
+                            </div>
+                            <h5 class="listnew-title">FIFA tạo cuộc tranh cãi dữ dội giữa phe Messi và Cristiano Ronaldo trên mạng xã hội</h5>
+                            <p class="listnew-text">Tài khoản chính thức trên mạng xã hội Twitter của LĐBĐ thế giới (FIFA) phải xóa liên tiếp 2 dòng tweet có liên quan tới siêu sao Lionel Messi và Cristiano Ronaldo, vì tạo ra cuộc tranh luận và chỉ trích lẫn nhau rất dữ dội.</p>
+                            <div class="listnew-bottom">
+                                <span><img src="./images/blogs/icon-clock.png" alt="">18/12/2022</span>
+                                <a href="#">
+                                    <button class="listnew-btn">Xem thêm <img src="./images/blogs/icon-arrow.png" alt=""></button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ///////////////////////////////// -->
+        <div class="blog__bottom">
+            <div class="blog__may1">
+                <img src="./images/blogs/blog-may1.png" alt="">
+            </div>
+            <div class="container">
+                <div class="blog__bottom-container">
+                    <div class="avt">
+                        <img src="./images/blogs/AVT .png" alt="">
+                    </div>
+                    <h2 class="blog__bottom-title">Sáng tạo cùng <span>Mây</span></h2>
+                    <a href="#">
+                        <button class="blog__bottom-btn">Liên hệ tại đây <img src="./images/blogs/icon-arrow2.png" alt=""></button>
+                    </a>
+                </div>
+            </div>
+            <div class="blog__may2">
+                <img src="./images/blogs/blog-may2.png" alt="">
+            </div>
+        </div>
+    </main>
+
+    <!-- footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-container">
+                <div class="ft-top">
+                    <div class="logo-footer">
+                        <img src="./images/home/logo-ft.png" alt="">
+                    </div>
+                    <p class="ft-text">67 Hoàng Văn Thái, Phường Tân Phú, Quận 7, Thành phố Hồ Chí Minh</p>
+                    <div class="list-social">
+                        <a href="#"><img src="./images/home/ic-fb.png" alt=""></a>
+                        <a href="#"><img src="./images/home/ic-ig.png" alt=""></a>
+                        <a href="#"><img src="./images/home/ic-lk.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="ft-bottom">
+            <div class="copyright">
+                <span>© 2022 Mây Network | All rights reserved</span>
+            </div>
+        </div>
+    </footer>
+
+     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+     <script>
+       AOS.init();
+     </script>
+     <script
+       type="text/javascript"
+       src="https://code.jquery.com/jquery-1.11.0.min.js"
+     ></script>
+     <script
+       type="text/javascript"
+       src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"  
+     ></script>
+     <script
+       type="text/javascript"
+       src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+     ></script>
+     <script src="./js/home.js"></script>
+     <script src="./js/blog.js"></script>
+</body>
+</html>
