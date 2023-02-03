@@ -437,6 +437,21 @@
 
 }
 
+@media screen and (max-width: 1441px) {
+    .about__box3 {
+        background: url(../images/about/bg-box3.png) no-repeat center;
+        background-size: cover;
+        position: relative;
+    }
+}
+@media screen and (min-width: 1441px) {
+    .about__box3 {
+        background: url(../images/about/bg-box3.png) no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+}
+
 /* ====================================== */
 
 .about__box4-top {
