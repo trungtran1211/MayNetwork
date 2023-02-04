@@ -183,7 +183,7 @@ details[open] > summary::after {
     font-style: normal;
     font-weight: 900;
     font-size: 48px;
-    line-height: 60px;
+    line-height: 72px;
     text-align: center;
     letter-spacing: 0.005em;
     background: linear-gradient(91.91deg, #25B9FC 2.93%, #0EC2E9 99.69%);
@@ -493,7 +493,7 @@ textarea.qs__form-control {
     }
     .qs__contact-container .qs__contact-heading {
         font-size: 18px;
-        line-height: 21px;
+        line-height: 27px;
         margin-bottom: 11px;
     }
     .qs__contact-container {
